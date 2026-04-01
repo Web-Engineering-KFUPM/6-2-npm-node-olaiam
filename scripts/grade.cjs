@@ -411,10 +411,6 @@ const isValidOperationBody = bodyOfFunction(parser, "isValidOperation");
  * TODO 2 — Imports in calculator.js
  */
 
-import { add, subtract, multiply, divide } from "./utils/operation.js";
-import { parseNumbers, isValidOperation } from "./utils/parser.js";
-import _ from "lodash";
-
 
 {
   if (!calculator) {

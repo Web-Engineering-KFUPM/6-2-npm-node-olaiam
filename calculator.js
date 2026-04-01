@@ -217,6 +217,7 @@ import { add, subtract, multiply, divide } from "./utils/operation.js";
 import { parseNumbers, isValidOperation } from "./utils/parser.js";
 import _ from "lodash";
 
+
 // TODO 2: Parse command line arguments
 const operation = process.argv[2];
 const numbers = process.argv.slice(3);
